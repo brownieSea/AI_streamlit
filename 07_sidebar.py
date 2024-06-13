@@ -10,7 +10,7 @@ userPW = st.sidebar.text_input("PW : ", value="12345", max_chars=15, type='passw
 st.sidebar.subheader("SelectBox")
 sel_opt = ["진주 귀걸이를 한 소녀", '별이 빛나는 밤에', '절규', '월하정인']
 user_opt = st.sidebar.selectbox("Favorite Picture : ", sel_opt, index=None, placeholder="Choose favorite pic...")
-st.sidebar.write("Choosed : ", user_opt)
+# st.sidebar.write("Choosed : ", user_opt)
 
 # 메인화면
 st.title("스트림릿의 사이드바")
