@@ -24,4 +24,4 @@ if user_opt:
     img_local = Image.open(f'{folder}{img_file}')
     st.image(img_local, caption=user_opt)
 else:
-    pass
+    st.header("좌측 메뉴에서 그림을 선택해주세요")
