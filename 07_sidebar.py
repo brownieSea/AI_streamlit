@@ -22,6 +22,7 @@ if user_opt:
     sel_img_index = sel_opt.index(user_opt)
     img_file = image_files[sel_img_index]
     img_local = Image.open(f'{folder}{img_file}')
+    st.subheader(f"{user_opt}")
     st.image(img_local, caption=user_opt)
 else:
     st.header("좌측 메뉴에서 그림을 선택해주세요")
