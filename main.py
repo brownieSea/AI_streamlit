@@ -1,5 +1,8 @@
+import pandas as pd
 import streamlit as st
-from PIL import Image
+import matplotlib.pyplot as plt
+import matplotlib
+from io import BytesIO 
 import exchange_rate
 
 # 사이드바 화면
