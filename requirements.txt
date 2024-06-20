@@ -2,3 +2,4 @@ lxml
 matplotlib
 html5lib
 beautifulsoup4
+io
