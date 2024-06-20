@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import exchange_rate   #파일명
+import exchange_rate
 
 # 사이드바 화면
 st.sidebar.header("로그인")
